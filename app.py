@@ -20,5 +20,5 @@ logging.basicConfig(filename='app.log', level=logging.DEBUG)
 from routes import *
 
 if __name__ == '__main__':
-    app.run(host='20.243.20.46', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
 
