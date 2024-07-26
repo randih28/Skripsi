@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>{{ title }}</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='assets/img/icons/icon.ico') }}">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/bootstrap.min.css') }}">
+    
+    <!-- Atlantis CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/atlantis.min.css') }}">
+    
+    <!-- Demo CSS (optional, remove if not needed) -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/demo.css') }}">
+    
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/your_custom_styles.css') }}">
+    
+    <!-- jQuery -->
+    <script src="{{ url_for('static', filename='assets/js/core/jquery.3.2.1.min.js') }}"></script>
+    
+    <!-- Popper -->
+    <script src="{{ url_for('static', filename='assets/js/core/popper.min.js') }}"></script>
+    
+    <!-- Bootstrap JS -->
+    <script src="{{ url_for('static', filename='assets/js/core/bootstrap.min.js') }}"></script>
+    
+    <!-- Atlantis JS -->
+    <script src="{{ url_for('static', filename='assets/js/atlantis.min.js') }}"></script>
+    
+    <!-- Setting Demo JS (optional, remove if not needed) -->
+    <script src="{{ url_for('static', filename='assets/js/setting-demo.js') }}"></script>
+    
+    <!-- Your Custom JS -->
+    <script src="{{ url_for('static', filename='assets/js/your_custom_script.js') }}"></script>
+</head>
+<body>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
