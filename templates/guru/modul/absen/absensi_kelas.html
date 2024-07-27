@@ -87,9 +87,8 @@
     </div>
 
         <!-- Video stream -->
-        <video id="video" width="640" height="480" autoplay></video>
+        <img id="video-stream" src="{{ url_for('video_feed') }}" alt="Video Stream" style="width: 50%; max-width: 50%;">
 
-        <script src="{{ url_for('static', filename='js/video.js') }}"></script>
         <div class="labels">
             <h3>Detected Faces:</h3>
             <ul id="face-labels"></ul>
@@ -110,20 +109,6 @@
 </div>
 
     <script>
-        (async () => {
-            const constraints = {
-                video: true
-            };
-        
-            try {
-                const stream = await navigator.mediaDevices.getUserMedia(constraints);
-                const videoElement = document.getElementById('video');
-                videoElement.srcObject = stream;
-            } catch (error) {
-                console.error('Error accessing media devices.', error);
-            }
-        })();
-        
         const detectedLabels = new Set();
         const savedNisToday = new Set();
         const displayedLabels = new Set();

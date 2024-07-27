@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, session, flash, jsonify, Response
+from flask import Flask, render_template, request, redirect, url_for, session, flash, jsonify, Response, send_from_directory
 from datetime import datetime
 from app import app, mysql
 from my_utils import hash_password, check_password
@@ -7,8 +7,6 @@ import cv2
 import threading
 from face_recognition_utils import recognize_faces, get_db_connection
 from config import app, mysql  # Impor app dan mysql dari config.py
-
-
 
 @app.route('/')
 def index():
@@ -209,6 +207,10 @@ def akun_page():
 @app.route('/guru')
 def guru():
     return render_template('modul/home.html')
+
+@app.route('/guru/modul/absen/<path:filename>')
+def serve_file(filename):
+    return send_from_directory('guru/modul/absen', filename)
 
 
 #fitur deteksi

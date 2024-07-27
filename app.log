@@ -242,3 +242,1369 @@ INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:03:24] "[36mGET /static/img/logo1.p
 INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:03:24] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:03:27] "GET /load_content?content=absen HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 21:03:29] "GET /video_feed HTTP/1.1" 200 -
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.192.119:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:23:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:00] "GET /static/assets/_login/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:00] "GET /static/assets/_login/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:00] "GET /static/assets/_login/vendor/animsition/css/animsition.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:00] "GET /static/assets/_login/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:00] "GET /static/assets/_login/fonts/iconic/css/material-design-iconic-font.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:00] "GET /static/assets/_login/vendor/animate/animate.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:00] "GET /static/assets/_login/vendor/select2/select2.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:00] "GET /static/assets/_login/vendor/daterangepicker/daterangepicker.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:00] "GET /static/assets/_login/css/util.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:00] "GET /static/assets/_login/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:00] "GET /static/assets/img/logo1.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:00] "GET /static/assets/_login/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:01] "GET /static/assets/_login/vendor/animsition/js/animsition.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:01] "GET /static/assets/_login/vendor/bootstrap/js/popper.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:01] "GET /static/assets/_login/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:01] "GET /static/assets/_login/vendor/select2/select2.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:01] "GET /static/assets/_login/fonts/poppins/Poppins-Regular.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:01] "GET /static/assets/_login/fonts/poppins/Poppins-Bold.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:01] "GET /static/assets/_login/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:01] "GET /static/assets/_login/fonts/poppins/Poppins-Medium.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:01] "GET /static/assets/_login/vendor/daterangepicker/moment.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:01] "GET /static/assets/_login/vendor/daterangepicker/daterangepicker.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:01] "GET /static/assets/_login/vendor/countdowntime/countdowntime.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:02] "GET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:02] "GET /static/assets/_login/js/main.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:02] "[33mGET /static/images/icons/favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:root:Login attempt: username=001, level=1
+DEBUG:root:User fetched: (5, '001', 'Fatmawati S.Pd', 'fatmawati@gmail.com', 'e193a01ecf8d30ad0affefd332ce934e32ffce72', 'guru.png', 'Y')
+DEBUG:root:Password check passed
+DEBUG:root:Redirecting to guru dashboard
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:10] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:10] "GET /static/assets/css/fonts.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:10] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:10] "GET /static/assets/css/atlantis.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:10] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:11] "GET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:11] "GET /static/img/user/guru.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:11] "GET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:11] "GET /static/assets/js/core/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:11] "GET /static/assets/js/core/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:11] "GET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:11] "GET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:11] "GET /static/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:11] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:11] "GET /static/assets/fonts/flaticon/Flaticon.woff HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:11] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:11] "GET /static/assets/fonts/fontawesome/fa-brands-400.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:12] "GET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:12] "GET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:12] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:12] "GET /static/assets/js/atlantis.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:12] "GET /static/assets/js/setting-demo.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:12] "GET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:12] "GET /load_content?content=default_content HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:12] "[33mGET /static/assets/img/icon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:12] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:12] "[33mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:13] "GET /static/img/logo1.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:14] "GET /load_content?content=absen HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:25] "[36mGET /static/assets/css/fonts.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:25] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:25] "[36mGET /static/assets/css/atlantis.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:25] "[36mGET /static/assets/css/demo.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:25] "[33mGET /static/assets/js/core/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:25] "GET /static/assets/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:24:25] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.192.119:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:32] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:32] "GET /load_content?content=jadwal HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:33] "[36mGET /static/assets/_login/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:33] "[36mGET /static/assets/_login/vendor/animsition/css/animsition.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:33] "[36mGET /static/assets/_login/vendor/select2/select2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:33] "[36mGET /static/assets/_login/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:33] "[36mGET /static/assets/_login/vendor/daterangepicker/daterangepicker.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:33] "[36mGET /static/assets/_login/fonts/iconic/css/material-design-iconic-font.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:33] "[36mGET /static/assets/_login/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:33] "[36mGET /static/assets/_login/vendor/animate/animate.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:33] "[36mGET /static/assets/_login/css/util.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:33] "[36mGET /static/assets/_login/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:33] "[36mGET /static/assets/_login/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:33] "[36mGET /static/assets/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:33] "[36mGET /static/assets/_login/vendor/animsition/js/animsition.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:34] "[36mGET /static/assets/_login/vendor/bootstrap/js/popper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:34] "[36mGET /static/assets/_login/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:34] "[36mGET /static/assets/_login/vendor/select2/select2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:34] "[36mGET /static/assets/_login/fonts/poppins/Poppins-Regular.ttf HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:34] "[36mGET /static/assets/_login/fonts/poppins/Poppins-Bold.ttf HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:34] "[36mGET /static/assets/_login/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:34] "[36mGET /static/assets/_login/fonts/poppins/Poppins-Medium.ttf HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:34] "[36mGET /static/assets/_login/vendor/daterangepicker/moment.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:34] "[36mGET /static/assets/_login/vendor/daterangepicker/daterangepicker.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:34] "[36mGET /static/assets/_login/vendor/countdowntime/countdowntime.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:34] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:35] "[36mGET /static/assets/_login/js/main.js HTTP/1.1[0m" 304 -
+DEBUG:root:Login attempt: username=001, level=1
+DEBUG:root:User fetched: (5, '001', 'Fatmawati S.Pd', 'fatmawati@gmail.com', 'e193a01ecf8d30ad0affefd332ce934e32ffce72', 'guru.png', 'Y')
+DEBUG:root:Password check passed
+DEBUG:root:Redirecting to guru dashboard
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:43] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:43] "[36mGET /static/assets/css/fonts.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:43] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:43] "[36mGET /static/assets/css/atlantis.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:43] "[36mGET /static/assets/css/demo.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:44] "[36mGET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:44] "[36mGET /static/img/user/guru.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:44] "[36mGET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:44] "[36mGET /static/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:44] "[36mGET /static/assets/js/core/popper.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:44] "[36mGET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:44] "[36mGET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:44] "[36mGET /static/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:44] "[36mGET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:44] "[36mGET /static/assets/fonts/flaticon/Flaticon.woff HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:45] "[36mGET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:45] "[36mGET /static/assets/fonts/fontawesome/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:45] "[36mGET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:45] "[36mGET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:45] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:45] "[36mGET /static/assets/js/atlantis.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:45] "[36mGET /static/assets/js/setting-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:45] "[36mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:45] "GET /load_content?content=default_content HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:46] "[33mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:46] "[36mGET /static/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\flask\\templating.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\jinja2\\environment.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\werkzeug\\routing\\map.py', reloading
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:48] "[35m[1mGET /load_content?content=absen HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:28:48] "GET /guru?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.192.119:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.192.119:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:23] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:23] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:24] "GET /static/assets/css/fonts.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:24] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:24] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:24] "GET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:24] "GET /static/assets/css/atlantis.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:24] "GET /static/img/user/guru.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:24] "GET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:24] "GET /static/assets/js/core/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:24] "GET /static/assets/js/core/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:24] "GET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:24] "GET /static/assets/fonts/flaticon/Flaticon.woff HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:25] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:25] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:25] "GET /static/assets/fonts/fontawesome/fa-brands-400.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:25] "GET /static/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:25] "GET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:25] "GET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:25] "GET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:25] "GET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:25] "GET /static/assets/js/atlantis.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:25] "GET /static/assets/js/setting-demo.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:25] "GET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:26] "GET /load_content?content=default_content HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:26] "[33mGET /static/assets/img/icon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:26] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:26] "[33mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:26] "[36mGET /static/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:34:29] "GET /load_content?content=absen HTTP/1.1" 200 -
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.192.119:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:20] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:21] "[36mGET /static/assets/css/fonts.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:21] "[36mGET /static/assets/css/demo.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:21] "[36mGET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:21] "[36mGET /static/assets/css/atlantis.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:21] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:21] "[36mGET /static/img/user/guru.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:21] "[36mGET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:21] "[36mGET /static/assets/js/core/popper.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:21] "[36mGET /static/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:21] "[36mGET /static/assets/fonts/flaticon/Flaticon.woff HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:21] "[36mGET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:21] "[36mGET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:21] "[36mGET /static/assets/fonts/fontawesome/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:21] "[36mGET /static/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:22] "[36mGET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:22] "[36mGET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:22] "[36mGET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:22] "[36mGET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:22] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:22] "[36mGET /static/assets/js/atlantis.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:22] "[36mGET /static/assets/js/setting-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:22] "[36mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:22] "GET /load_content?content=default_content HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:23] "[33mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:23] "[36mGET /static/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:37:26] "GET /load_content?content=absen HTTP/1.1" 200 -
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.192.119:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:10] "[36mGET /static/assets/css/fonts.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:10] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:10] "[36mGET /static/assets/css/atlantis.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:10] "[36mGET /static/assets/css/demo.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:11] "[36mGET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:11] "[36mGET /static/img/user/guru.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:11] "[36mGET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:11] "[36mGET /static/assets/js/core/popper.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:11] "[36mGET /static/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:12] "[36mGET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:12] "[36mGET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:12] "[36mGET /static/assets/fonts/flaticon/Flaticon.woff HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:12] "[36mGET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:12] "[36mGET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:13] "[36mGET /static/assets/fonts/fontawesome/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:13] "[36mGET /static/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:13] "[36mGET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:13] "[36mGET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:14] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:14] "[36mGET /static/assets/js/atlantis.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:14] "[36mGET /static/assets/js/setting-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:14] "[36mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:15] "GET /load_content?content=default_content HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:15] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:15] "[33mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:15] "[36mGET /static/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:16] "GET /load_content?content=absen HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:41] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:41] "[36mGET /static/assets/css/fonts.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:41] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:41] "[36mGET /static/assets/css/atlantis.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:41] "[36mGET /static/assets/css/demo.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:41] "[36mGET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:41] "[36mGET /static/img/user/guru.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:41] "[36mGET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:41] "[36mGET /static/assets/js/core/popper.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:42] "[36mGET /static/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:42] "[36mGET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:42] "[36mGET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:42] "[36mGET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:42] "[36mGET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:42] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:42] "[36mGET /static/assets/js/atlantis.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:42] "[36mGET /static/assets/js/setting-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:42] "[36mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:43] "GET /load_content?content=default_content HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:43] "[33mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:43] "[36mGET /static/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:44] "GET /load_content?content=jadwal HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:58] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:58] "[36mGET /static/assets/css/fonts.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:58] "[36mGET /static/assets/css/atlantis.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:58] "[36mGET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:58] "[36mGET /static/assets/css/demo.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:58] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:58] "[36mGET /static/img/user/guru.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:58] "[36mGET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:58] "[36mGET /static/assets/js/core/popper.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:58] "[36mGET /static/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:59] "[36mGET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:59] "[36mGET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:59] "[36mGET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:59] "[36mGET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:59] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:59] "[36mGET /static/assets/js/atlantis.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:59] "[36mGET /static/assets/js/setting-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:59] "[36mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:59] "GET /load_content?content=default_content HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:50:59] "[33mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:51:00] "[36mGET /static/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:51:03] "GET /load_content?content=absen HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.192.119:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+INFO:config:Berhasil terhubung ke kamera laptop
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/css/fonts.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/img/user/guru.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/css/demo.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/css/atlantis.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/js/core/popper.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/js/atlantis.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/js/setting-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/fonts/flaticon/Flaticon.woff HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:25] "[36mGET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:26] "[36mGET /static/assets/fonts/fontawesome/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:26] "GET /load_content?content=default_content HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:26] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:26] "[33mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:26] "[36mGET /static/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:27] "GET /load_content?content=jadwal HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:53:33] "GET /load_content?content=absen HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/assets/css/fonts.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/assets/css/demo.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/assets/css/atlantis.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/img/user/guru.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/assets/js/core/popper.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/assets/js/atlantis.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/assets/js/setting-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "GET /load_content?content=default_content HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[33mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:02] "[36mGET /static/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/assets/css/fonts.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/assets/css/atlantis.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/assets/css/demo.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/img/user/guru.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/assets/js/core/popper.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/assets/js/atlantis.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/assets/js/setting-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "GET /load_content?content=default_content HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[36mGET /static/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:03] "[33mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:22] "GET /load_content?content=absen HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/fonts/iconic/css/material-design-iconic-font.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/vendor/animate/animate.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/vendor/animsition/css/animsition.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/vendor/select2/select2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/vendor/daterangepicker/daterangepicker.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/css/util.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/vendor/animsition/js/animsition.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/vendor/bootstrap/js/popper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/vendor/select2/select2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/vendor/daterangepicker/moment.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/vendor/daterangepicker/daterangepicker.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/vendor/countdowntime/countdowntime.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/fonts/poppins/Poppins-Regular.ttf HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/fonts/poppins/Poppins-Bold.ttf HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/fonts/poppins/Poppins-Medium.ttf HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[36mGET /static/assets/_login/js/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 08:54:26] "[33mGET /static/images/icons/favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.192.119:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+DEBUG:root:Login attempt: username=001, level=1
+DEBUG:root:User fetched: (5, '001', 'Fatmawati S.Pd', 'fatmawati@gmail.com', 'e193a01ecf8d30ad0affefd332ce934e32ffce72', 'guru.png', 'Y')
+DEBUG:root:Password check passed
+DEBUG:root:Redirecting to guru dashboard
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/css/atlantis.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/img/user/guru.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/css/fonts.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/css/demo.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/js/core/popper.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/js/atlantis.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/js/setting-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/fonts/flaticon/Flaticon.woff HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "[36mGET /static/assets/fonts/fontawesome/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:55] "GET /load_content?content=default_content HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:56] "[33mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:04:56] "[36mGET /static/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:05:02] "GET /load_content?content=absen HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\face_recognition_utils.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.192.119:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:16] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/css/atlantis.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/img/user/guru.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/css/fonts.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/css/demo.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/js/core/popper.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/js/atlantis.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/js/setting-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/fonts/flaticon/Flaticon.woff HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/assets/fonts/fontawesome/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "GET /load_content?content=default_content HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[33mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:17] "[36mGET /static/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:19] "GET /load_content?content=jadwal HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:11:22] "GET /load_content?content=absen HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:15:06] "[35m[1mGET /index.php HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:15:06] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:15:06] "GET /index.php?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:15:06] "GET /index.php?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:15:06] "GET /index.php?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:15:07] "[36mGET /index.php?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.192.119:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:16:23] "GET /index.php HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:16:23] "[35m[1mGET /guru HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:16:23] "GET /guru?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:16:23] "[36mGET /guru?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:16:23] "GET /guru?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:16:23] "[36mGET /guru?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.192.119:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:22] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:22] "[35m[1mGET /static/assets/css/fonts.min.css HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:22] "[35m[1mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:22] "[35m[1mGET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:23] "[35m[1mGET /static/assets/css/atlantis.min.css HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:23] "[35m[1mGET /static/assets/css/demo.css HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:23] "[35m[1mGET /static/img/user/guru.png HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:23] "[35m[1mGET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:23] "[35m[1mGET /static/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:23] "[35m[1mGET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:23] "[35m[1mGET /static/assets/js/core/popper.min.js HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:23] "[35m[1mGET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:23] "[35m[1mGET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:23] "[35m[1mGET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:23] "[35m[1mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:23] "[35m[1mGET /static/assets/js/setting-demo.js HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:23] "[35m[1mGET /static/assets/js/atlantis.min.js HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:23] "[35m[1mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:23] "[35m[1mGET /load_content?content=default_content HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:19:23] "[36mGET /guru?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:20:31] "[35m[1mGET /guru HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:20:31] "[36mGET /guru?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:20:31] "[36mGET /guru?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:20:31] "[36mGET /guru?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:20:31] "[36mGET /guru?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.192.119:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:38] "[36mGET /guru?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:38] "[36mGET /guru?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:config:Berhasil terhubung ke kamera laptop
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "[36mGET /static/assets/_login/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "[36mGET /static/assets/_login/vendor/animate/animate.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "[36mGET /static/assets/_login/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "[36mGET /static/assets/_login/fonts/iconic/css/material-design-iconic-font.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "[36mGET /static/assets/_login/vendor/select2/select2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "[36mGET /static/assets/_login/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/fonts/iconic/css/material-design-iconic-font.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/vendor/animate/animate.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/vendor/select2/select2.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/vendor/animsition/css/animsition.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/vendor/daterangepicker/daterangepicker.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/css/util.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/img/logo1.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/vendor/animsition/js/animsition.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/vendor/bootstrap/js/popper.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/vendor/select2/select2.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/vendor/daterangepicker/moment.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/vendor/daterangepicker/daterangepicker.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/vendor/countdowntime/countdowntime.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "GET /static/assets/_login/js/main.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "[36mGET /static/assets/_login/fonts/poppins/Poppins-Regular.ttf HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "[36mGET /static/assets/_login/fonts/poppins/Poppins-Bold.ttf HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "[36mGET /static/assets/_login/fonts/poppins/Poppins-Medium.ttf HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:39] "[36mGET /static/assets/_login/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1[0m" 304 -
+DEBUG:root:Login attempt: username=001, level=1
+DEBUG:root:User fetched: (5, '001', 'Fatmawati S.Pd', 'fatmawati@gmail.com', 'e193a01ecf8d30ad0affefd332ce934e32ffce72', 'guru.png', 'Y')
+DEBUG:root:Password check passed
+DEBUG:root:Redirecting to guru dashboard
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "GET /static/assets/css/fonts.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "GET /static/assets/css/atlantis.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "GET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "GET /static/img/user/guru.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "GET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "GET /static/assets/js/core/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "GET /static/assets/js/core/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "GET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "GET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "GET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "GET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "GET /static/assets/js/atlantis.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "GET /static/assets/js/setting-demo.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "GET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "[36mGET /static/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "[36mGET /static/assets/fonts/flaticon/Flaticon.woff HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "[36mGET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "[36mGET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "[36mGET /static/assets/fonts/fontawesome/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "GET /load_content?content=default_content HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "[33mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:33:59] "[36mGET /static/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:34:03] "GET /load_content?content=absen HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:34:09] "[36mGET /static/assets/css/fonts.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:34:09] "[36mGET /static/assets/css/atlantis.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:34:09] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:34:09] "[36mGET /static/assets/css/demo.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:34:09] "[33mGET /static/assets/js/core/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:34:09] "[36mGET /static/assets/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:34:09] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:11] "GET /index.php HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:11] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:11] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:14] "[33mGET /static/assets/js/core/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:14] "[36mGET /static/assets/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:14] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:14] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:14] "[36mGET /static/assets/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:14] "[33mGET /static/assets/js/core/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:14] "[33mGET /static/assets/js/core/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:14] "[36mGET /static/assets/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:14] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:16] "GET /load_content?content=jadwal HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\flask\\templating.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\jinja2\\environment.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:20] "[35m[1mGET /rekap?pelajaran= HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:20] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:20] "GET /rekap?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:20] "GET /rekap?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:20] "GET /rekap?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:20] "[36mGET /rekap?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+INFO:config:Berhasil terhubung ke kamera laptop
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:50] "[33mGET /static/assets/js/core/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:50] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:50] "[33mGET /static/assets/js/core/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:50] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:50] "[33mGET /static/assets/js/core/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:50] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:50] "GET /load_content?content=absen HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:50] "[36mGET /static/assets/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:50] "GET /static/assets/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:36:50] "GET /static/assets/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 -
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.192.119:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+INFO:config:Berhasil terhubung ke kamera laptop
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:36] "GET /load_content?content=jadwal HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:36] "GET /load_content?content=jadwal HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:36] "GET /load_content?content=jadwal HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:36] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:36] "GET /load_content?content=absen HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:36] "[36mGET /static/assets/css/fonts.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:36] "[36mGET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:36] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:36] "[36mGET /static/assets/css/atlantis.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:36] "[36mGET /static/assets/css/demo.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:36] "[36mGET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:36] "[36mGET /static/img/user/guru.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:36] "[36mGET /static/assets/js/core/popper.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:36] "[36mGET /static/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[36mGET /static/assets/fonts/flaticon/Flaticon.woff HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[36mGET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[36mGET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[36mGET /static/assets/fonts/fontawesome/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[36mGET /static/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[36mGET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[36mGET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[36mGET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[36mGET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[36mGET /static/assets/js/atlantis.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[36mGET /static/assets/js/setting-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[36mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[33mGET /static/assets/js/core/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "GET /load_content?content=default_content HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[36mGET /static/assets/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[33mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[36mGET /static/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:40:37] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:41:00] "GET /load_content?content=jadwal HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:41:03] "GET /load_content?content=absen HTTP/1.1" 200 -
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.192.119:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:51:40] code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:51:40] "[35m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03ö/PÀØ\x07å\x9aºç\x9b>ÚsÛ\x01×\x1e\x8e\x87ÛIyÌ\x80\x0d+\x08L.yl l\x1b.\x7f¾\x84»­\x92à8qþ\x08@HR$h]ÜÀ2\x90ìZR¿\x81²ó³\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:51:40] code 400, message Bad request version ('\x12å\x8c÷+2P\x94')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:51:40] "[35m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03»ä\x00ç\x80Sxµe&¬ÎY)\x15\x15×ýùßî¥\x093?\x96è:\x02É)H ÿ¾\x92ÉÐt¦üá¼\x04"\x80Ø\x1dK\x80\x03ôX¨\x96º*\x01\x0d\x87A\x18w\x98Ù\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93úú\x00\x00Di\x00\x05\x00\x03\x02h2\x00\x12\x00\x00\x003\x04ï\x04í\x9a\x9a\x00\x01\x00c\x99\x04ÀC\x9b.¡\x1f\x12å\x8c÷+2P\x94[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:51:40] code 400, message Bad request version ('6ü0\x83&y«´Ð\x04ß¤94B®ôD½ã¡\x8c@\x01&\x9aKo\x19¨\x812º)§±\x8dÏ÷Iï')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:51:40] "[35m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x80\x91\x9b+D\x9e\x7f1ËÜ¥\x9a¤°Ôu¦»ÑX¾\x99+e£*Ð\x9dÚèÉ# Y;ø·_D{ÀÌ.ñìêö\x00Z\x9d´\x0ef\x7fÎÔ\x7f\x01\x0b¿ûs6B3\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063ÊÊ\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x12\x00\x00\x00\x0b\x00\x02\x01\x00\x00-\x00\x02\x01\x01\x00#\x00\x00\x00\x17\x00\x00Di\x00\x05\x00\x03\x02h2\x00\x1b\x00\x03\x02\x00\x02\x003\x04ï\x04í::\x00\x01\x00c\x99\x04ÀÜÂ\x1cW@ÐÜ\x99­'§Ò\x8e{¾Ô\x8f¿O(\x1aÕÐ\x11³Êüìà\x00\x19MÑ\x8b"\x1e\x1a-j ½û\x90?\x996#Íh]y¡~\x8adÏm\x18mÏä\x1b\x91üAB\x18\x93ÿôM¤\x87\x07\x9cà\x7f;æ\x9b«È$'Ñ^M6Í\x1f\\\x9f+ÓZGp\x83²¸¥\x06\x99?4Yfï@S¨\x0cW\x17\x99<ÚYt\x04\x15½kÐ\x0dº\x05pX\x0bP+h\x8d\x06!6ô(½\x1f<a¤Õ-àÈÀ¹T\x0fF\x98\x14ëx`a\x19S\x8f¢\x02ùÊqÏ\x80\x05/\x0b6ü0\x83&y«´Ð\x04ß¤94B®ôD½ã¡\x8c@\x01&\x9aKo\x19¨\x812º)§±\x8dÏ÷Iï[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:51:40] code 400, message Bad request version (')\x9a\x96\x81ù>\x80×')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:51:40] "[35m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x9errè¼\x96AÝ\x1fC\x19Ån$\x19\x0b\x9fÒ»\x1d'Ó\x95}}\x05\x99\x9eiG\x17\x7f )\x9a\x96\x81ù>\x80×[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:51:40] code 400, message Bad request version ('3')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:51:40] "[35m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x1eDJ^ÊçÏÑÐIg\x97µÇ)[ÇÁ\x0b3[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:51:54] code 400, message Bad request version ('Õ\x9c')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:51:54] "[35m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03Ø\x9eTY_\x197ûRu\x9d1\x80äè×Ü\x91/\x0c`J é#Þ\x0f\x83J¡\x97\x1d \x0f³\x15Ø\x83¢\x10\x14\x0bÉW,W¤uôEOrá+\x99Ó\x9c ¦Û\x83\x06¹' \x00 zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sªª\x00\x00\x00\x1b\x00\x03\x02\x00\x02Di\x00\x05\x00\x03\x02h2\x003\x04ï\x04íêê\x00\x01\x00c\x99\x04À±\x1e\x84wjZ{\x1eÛG&´CJúõÂ[=\x1f1 ÒzÈD\x1bä\x8a¼¦\x0e]W nÜ\x19X\x81Ï¸X1r¸\x03ï±"*DË?'~'§E,ÛG¹0"¬ÌRÊçy ¦B\x8c@\x02)én]dª\x95*A\x0eÜ\x16\x96:yH7>õ*d\x00K\x9dðg½Ï2\\Sù\x8cëü\x0c9+AKùÌ{\x9a\x8fÌà\x1fñ\x16\x8fnJZA\x8bf\x19Ù\x08vÔ\x03\x0e¡\x18O;\x7fqÃ\x01:P,FÁM.;\x02±J\x06¯ü£åd£ñp¯\x07¤>\x88§`#ée/W\x07i\x85\x9c\x86¥xC7KÂÐs_ætOG\x91¢\x9ciÔ\x99h({L_°M\x83q\x00\x9dªËþEJìâµX¨¥ Õ\x9c[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:51:54] code 400, message Bad request version ('PÖ©\x12w6nãp$7\x12³"I>u\x12\x1bYh×l')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:51:54] "[35m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03F\x16w\x9fÏËi?è{ëk¬È\x97Ü¶\x1dmçB-Þ\\\x15R]\x82@=\x0d\x9a àüT¦\x16h\x92\x98G\x86\x09Çpû\x1e\x83¤ãFå\x12ÁªÀ\x97ýö\x17Ý¥A\x99\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93úú\x00\x00\x00-\x00\x02\x01\x01Di\x00\x05\x00\x03\x02h2\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00#\x00\x00\x00\x12\x00\x00\x00\x0b\x00\x02\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x17\x00\x00\x003\x04ï\x04íúú\x00\x01\x00c\x99\x04ÀÃ¿Z\x95«CÙ6\x11¢oh@°!\x10ý\x94·Û\x90ìües-ÿ!æ*é\x17\x10\x07\\\x16§\x1b)#H8`mõr¢~+\x1b¹\x92R\x03÷/-Ê²-ÚXËª§¥ÖPä\x91\x8bwg}\x8cô"à\\\x81o\x0cqyìb¯bo\x09¸u\x95qxï*R\x82ÈL\x82ñ\x1fÁác¯\x85§ÓÁyÝÐn§xZ´×W\x15¼\x0cn´Ïc\x86d\x90 £$k¤{\x1ck"w\x80\x85\x94\x83[\x81\x80\x9f\x86«\x8aÉs\x1a'\x8eB²\x97ç57q\x05\x1b\x02hI \x1c¡XScègzÔì\x90Ð\x14B]b+\x1f\x8c¸\x9bÊÁ\x1a$w«!±ÊH\x81Î7k}Ó+N)3/»8n0-â°³ÄUV¦\x1b\x0f\x00Àx\x9aò\x11\x10·yaàÍññ}é¢¨^woÁ\x856zw^fâVk\x91\x9bø\x82\x1eÊC#<JKßCLÆì\x97ðÔ¾ô%l@\x87\x97\x1cSw\x10©/ÆCªûÜ6\x80² \x97°\x94±F®í@½×41Z\x0b\x00Ìl\x06\x87¡~¤;Æ\x12\x98\x12ÃÙ|¦\x0bj\x96è#mSNïºY§§\x10;±\x11\x83ë­éæ\x7f'7\\ÂS\x07\x9cÜ\x96Ñ¥¶\x05E?,Õj\x15Á\x99\x91i§#Ó&È(6Î$Oq\x93[\x96¨4T\x9a¹=\x17\\\x08\x8c8+\x82¼¢\x9b«cÌ\x1e©\x86^\x86V0Ö «\x84ÙL\x9af!ÿr-\x00\x8aÁaG\x81\x07¬¶ë\x0b"5À\x14f©\x9c\x1fª]Ãl\x82j¬Y\x81<9üâ\x9alImSL³¶\x06É¶Ð\x19\x0e¥D\x09T\x94\x82ôN·âz\x9a\x9bÍ\\`P¹FP÷\x82CzpA\x93\x90\x87ú°\x966ó\x0c$\x90\x0c¥j`n\\H\x195A\x08\x1cN?Õn½Ho\x848\x95»æ\x16\x9bò\x0b\x06\x86NµÂÊ\x804Ê\x83¦\x1a¼$ £y;¶Ë\x85Ct\x99/q"Ô\x86È\x7fº(¦\x0bNm¦\x9d\x82\x99Åó \x8c§ÙR\x86å\x82Õ6T\x18\x84©L°#\x80ð§¿b\x13.¥3ù¨R=ñW8Äcg\x83{ÿ\x12$Ùð0ßÇÄ!\x1c¨L¨X¤ç\x0c\x81 @8u»R»É\\B\x97\x19C\x0b/\x95\x95\x90)2Ã\x86\x03+©\x94¤dcC7P«\x17:a\x86\x17=2\x19ðÈ\x80Íew\x07Rb\x83Ñ<ñ\x0bi\x87ÖIxà7$[N'0Ë®Ã}\x16à\x92dä>\x86×d\\tr©\x93h\x0cº\x86ó`TÛ\x87¶h\x98\x05\x87ÒpÙ\x8arF\x92\x0d<êTt)\x0b¿öÅYòg\x10ç\x99{\x82¹¶§|¨i1Z©Xá\x88§å©sëüi\x0f,\x81°CSÐ\x06¼.ÐT-§ \x87\x19HëÔ\x12\x94ô\x9ev±x6h¤o,leD­Õ\x14\x1b$Dp9tuS\x81\x97õûV\x81Ú\x12È\x98\x97\x16&Ì\x06åf©\x18\x0b\x04K³3g\x1b´æÌU\x9b\x8e\x01f±\x8c\x10À¦Ö´\x18°²!»X.Ä\x8aV\x16Í¸ÐD\x07\x02«\x0b\x15 PÖ©\x12w6nãp$7\x12³"I>u\x12\x1bYh×l[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:04] code 400, message Bad request version ("\x03ßã\xadd\x9aqP8¢u#H\x00(\x13\x02\x13\x01À,À+À0À/À$À#À(À'À")
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:04] "[35m[1m\x16\x03\x01\x01\x04\x01\x00\x01\x00\x03\x03\x04Ôî2Î c\x98üëTKjQ\x16\x0b\x1fÜÁ\x01\x86YG\x9ec%ªïç\x86\x8e^ ÞM\x0eÉ*Q©(É¿ôE<3uÚNm\x85\x03ßã­d\x9aqP8¢u#H\x00(\x13\x02\x13\x01À,À+À0À/À$À#À(À'À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:04] code 400, message Bad request syntax ("\x16\x03\x03\x00©\x01\x00\x00¥\x03\x03f¤`Ô\x8fròSÀ\x84\x82þõÕ\x01\x15\x14J9º¶~CôÛõ%ëmö\x08Ó\x00\x00$À,À+À0À/À$À#À(À'À")
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:04] "[35m[1m\x16\x03\x03\x00©\x01\x00\x00¥\x03\x03f¤`Ô\x8fròSÀ\x84\x82þõÕ\x01\x15\x14J9º¶~CôÛõ%ëmö\x08Ó\x00\x00$À,À+À0À/À$À#À(À'À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:15] code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:15] "[35m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03£\x9a$\x87e9\x19º­_ôü§8}ÅC\x9e\x13F\x9eÐ\x18\x94C\x19<Û\x80¿\x1c\x89 SEmÈ©aãý\x9d\x1fq/Â\x9e«mÒ£\x06¢\x93¶­]Hã,\x17\x87s@\x14\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:15] code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93::\x00\x00\x00')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:15] "[35m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x8d\x0eæB# ì\x1e ¿ÉÖ\x96Ùw!f¢a\x84`{\x0b\x82[çò4ÓòßZ ÿ\x15-\x14¤l\x05\x0d\x17ßÌ§\x8f\x05Z\x9fc[)àérå[\x8d\x9f\x18>±@Ìú\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93::\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:38] code 400, message Bad request version ('Îç\x8a\x80:¨\x93^{¯xâA|\x168quP\x9a¥SæÄká')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:38] "[35m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03*,kpìµôù\x8d¹áA7þiýâ`ßÐÙ\x02é;\x00l(\x00*tln \x06\x8eã·¼~¢C\x07'Ãx\x00\x17ú\x94\x87HÀ\x03k \x1aÍT\x09~¿ØFò|\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93úú\x00\x00þ\x0d\x01\x1a\x00\x00\x01\x00\x01O\x00 IÄ8¨ÿÎµçaÑ\x1f \x9b\x85à"\x02ú]Ìy\x94#\x99\x0f"?\x84\x0b¤ßm\x00ðZ³íQ\x84ö\x80\x0b\x018q9h\x1eÞ\x13\x86\x88Ã¸¶ßç'MeDÖ Ù~¾\x05\x11AæT5Å&g´øJ¤óËÊ\x1fóÁÊj[\x1fëtö£·\x09\x00\x02ôeuK\x95'ç\\Lî\x13\x05ØYð¿,Á4\x16çy_à\x0f½\x02·KeúõzYµAQô°$ùS\x941}¨]i¦Òp·\x82ÅX\x87{0\x99\x9ch\x99\x07\x93Jí°á\x7fð}°Òeø\x87\x12\x8f!\x148³õ£Æðúh®)Û\x939#§ïë2ZÓi\x88W¤À!rY¼l\x80\x7fÞ\x87ù¦\x95¥²\\Æ!¬\x06sP\x04q½vµfÜP\x82\x0f`Ãã{\x04\x84ò\x90jYN\x15\x91F\x8eTD¡\x00\x80YØ\x082#¥\x80\x17û(`4æ\x09®Or¾Øº\x91\x003\x04ï\x04íjj\x00\x01\x00c\x99\x04À\x8e\x01\x8e\x0bd\x11xq×§úPdz\x00¬jÏïæ¾Ïm0 ÊÇ!$\x03ÑX'É«Ø\x87®ã,0OÑ¬@\x18\x94St\x89)ö\x18ø¥\x13¶\x9c{õCÍ_û\x8aö3\x87À\x1bÄJ\x91ª¢¦BÂËM\x9fy®ÿ¤\x99ëc\x96\x0dº\x81S¥w>Ì\x853\x1cÎç\x8a\x80:¨\x93^{¯xâA|\x168quP\x9a¥SæÄká[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:38] code 400, message Bad request version ("Îª\x98\x10'þÓbµ\x18oGZ{J!®Æ¿ÿøñ\x00")
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:38] "[35m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03"\x00¥øÆ\x11\x86Æ `h)Þ~Ü¬6«|\x97cYú3©\x04/®\x8b\x19u\x95 u\x80\x0fj/Â×}\x16\x1dÎª\x98\x10'þÓbµ\x18oGZ{J!®Æ¿ÿøñ\x00 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:40] code 400, message Bad request version ('$')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:40] "[35m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x9f:Üâ¨D©ËÈ\x0c7B¬ÍÜEtKÎÜìó\x0fèÜß=A®\x0bÐ\x9a Tçýûý\x8enrÏB2»\x05ê\x1cBÞÊ¤÷Zä!\x06\x17ç.\x04r\x92:\x07\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93jj\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x1b\x00\x03\x02\x00\x02\x00\x17\x00\x00\x00#\x00\x00þ\x0d\x01\x1a\x00\x00\x01\x00\x01ë\x00 ÙÙºÖ6l\x03ü­ú\x09ôà9áVÑï\x84¥\x1a¢¤U[0ê?\x8c]1V\x00ð¢ø7\x1feìfN°wæ\x05Þ"-<d½\x10©\x0b\x1f´\x8c\x17"ô\x03Òé\x1eËÝ\x8e@\x1c$ [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:40] code 400, message Bad request version ('Ö\x96')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:40] "[35m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03^åx½î\x9brÒä\x19¼Ïà&Ãù#\x86±1\x03àÈ$¢¹».ô\x09æÖ [\x9fº5Fô$À×\x9a÷ß/"æwÔÍúèw"}ÊÃ\x1cÙ!EÛ*9\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93::\x00\x00\x00+\x00\x07\x06ÊÊ\x03\x04\x03\x03\x00-\x00\x02\x01\x01þ\x0d\x01\x1a\x00\x00\x01\x00\x01\x01\x00 \x1d9Ý\x97z~5R\x80½\x90\x05^r\x98dÁ­¶[\x87\x93\x10õlWhHLu9a\x00ðñg{\x8e\x94¯Ãè\x8f\x1b\x80Pq7åe¡õVuÜ\x935\x14ºSQ\x00´òÛ4\x928\x1cJ\x0cÈËK!î®òºI¡\x99£¹\x95Õb.ÁÂ\x97¢«\x97ý\x84r\x9enF\x8a\x02F\x08"0Ãe ³JtÊNVkd\x11<ÖÁ\x91øù\x14~ùÁbÂ<\x95NÓ¡ø¿\x8bà\x0bÖ\x96[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:41] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03á\x18èÑ(ÕÒ\x99\x87[\x0e.')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:41] "[35m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03á\x18èÑ(ÕÒ\x99\x87[\x0e.\x1fN³,\x01wl\x8e)ÿÓ[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:41] code 400, message Bad request version ('5Çu}2+(Á\x83Kµ')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:41] "[35m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03§Ê\x8aó\x0cÏ,\x8c;ÎJÊ{+´c\x91x¡äáºmp\x84hÑÀà°Ç% ÈÜ\x14J.`ËX1Åp'\x97É3\x16©{\x00;&\x82%4ÎR¾vâË\x19¹\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ªª\x00\x00\x00-\x00\x02\x01\x01þ\x0d\x01\x1a\x00\x00\x01\x00\x01\x06\x00 5Çu}2+(Á\x83Kµ[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:42] code 400, message Bad request version ('\x83\x00')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:42] "[35m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03NKD8X¨0«!\x13V\x8dHx£6j\x9epS¯O¾l|!Ò{÷s\x93¸ úì¹så\x8bii,\x02Mò\x14½\x81Åð\x80\x98vá¾[\x10h"f0k*\x0b\x83\x00 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:42] code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x17\x00\x00\x00')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:42] "[35m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x8f$m\x1eÚ¼ \x1fãaúbãÊ5\x9bô¬Ê´\x7f@Üø\x0bEJøRËÒ, Â,ù§®\x10\x8eK\x04gÕï7U\x11ºó;\x0d,óð¢\x86Á)ÆöòCö\x91\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93zz\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x17\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:42] code 400, message Bad request syntax ('\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03%é.\x0f$§p:Èd\x15[O·\x9bP\x8e±å;')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:42] "[35m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03%é.\x0f$§p:Èd\x15[O·\x9bP\x8e±å;[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:42] code 400, message Bad request version ('\x90')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:42] "[35m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03C;Í\x15\x10e}Ä]Ç0\x9fô½PO\x9eY8ò\x11Ü­\x0e©\x9a-¢\x1a\x1f\x9eô \x9eT\x88\x0e/-@$OF¬\x8dM\x15\x0d³\x80\x947¶¶\x1bÈ\x87-jnôô\x15SF\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063\x8a\x8a\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x003\x04ï\x04íJJ\x00\x01\x00c\x99\x04Àê\x14FZâþ\x10Xë\x8d°mÙzfZvÕ\x81eÒrx*Æ\x81Uöyx§\x03;YKÖÚ\x18)t[°¼\x0b\x12B¯±Â¶nwT\x0c\x9c\x87Ü%\x1d§KW\x94û(j©!ó\x85\x90[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:43] code 400, message Bad request version ('Å§\x1bCÀ8')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:43] "[35m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03å\x84ÍXXèZ`[F­à7^råME\x94\x87½Ù?\x02Ýieë\x7fqÈ/ \x98\x8b\x89Õ^\x0d]û\x9f8ð~>ý¨&@\x9a\x15(4õâ\x889Y\x05\x0c\x96×x\x7f\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ªª\x00\x00\x003\x04ï\x04íjj\x00\x01\x00c\x99\x04À¬bª\x99\x11î\x1fõ¿æ\x03U3Má;\x9dt\x98\x08\x88VëÁ\x84(\x86\x7fx\x9f~,>\x02^_A[ù\x17[£\x13½ÔË#ÐTn\x0b\x82$Lõ©` \x12x\x98\x89X\x06Dß\x9bX*ûUvtÁ·\x10­[ê,iÅV8b[I¬`\x92\x80\x90@êU«\x05\x03pô\x10F×¶3\x029ñëdäa\x14\x8dùSÙò&C\x11ºý!Xò|¾éD»{\x9c\x98Ô\x05Æ\x1eÅ§\x1bCÀ8[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:43] code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063ªª\x00\x00\x00+\x00\x07\x06')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:43] "[35m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03ìHwÜ¸qíj\x95\x05#\x03\x99±\x0fë\x9eÍm\x8a\x08\x9a\x18\\@\x8c\x05Ýl^þù ÅHÈ-ulsb>§\x1dÓùÂ¥É±Lä\x8d×EX\x83«\x09\x84Ö\x97Í0k\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063ªª\x00\x00\x00+\x00\x07\x06[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:43] code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063úú\x00\x00\x00\x12\x00\x00\x00#\x00\x00\x00')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:43] "[35m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x17\x84\x0ez{\x083Mmühö\x92,\x93Õ\x94Ê\x99á\x90\x19`X\x99®\x9eÎ\x12\x82\x92K ×\x19Ú\x11r\x0b²+u\x1d\x19Ê\x1eÀf\x856¹} Ýï\x85"\x00\x0diöÂN/K\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063úú\x00\x00\x00\x12\x00\x00\x00#\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:43] code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sêê\x00\x00\x00+\x00\x07\x06zz\x03\x04\x03\x03\x00#\x00\x00\x00')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:43] "[35m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03·Âxfa\x9a4éêø¾«êAÍ\x1c\x9a\x86zÞg\x85~\x95v\x13 z»d¼Y  ¿\x95Ì\x19KÑrÕ­áS>ï\x16B\x05R{8©6÷HÒæ\x80p VÄ \x00 zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sêê\x00\x00\x00+\x00\x07\x06zz\x03\x04\x03\x03\x00#\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:49] code 400, message Bad request syntax ('\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x89\x19ÿ·;\x81bèÍ')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:49] "[35m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x89\x19ÿ·;\x81bèÍ[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:49] code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:49] "[35m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03vø\x98$\x8b@th"\x1e1\x98\x1e\x91\x0bø®=Cs§Õ.Ý¬²tìË7 3 )#Õ¶~ä\x06ú\x8a\x1a\x09\x0d1ª\x8fÔu7Av*É\x90\x17´â^!î8'Ë\x00 ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:51] code 400, message Bad request version ('24\x9b')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:51] "[35m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x032ZÛô\x85BÆì\x05\x19{ã\x1a_\x1cµk²Æñ\x87G\x84ÍPwô()TÇë Ã "¯\x8e¾ÄØ\x9br\x17û;{\x87\x89ë?'ÿ2\x08Õ[.°Ì\x0e\x98Õ`9\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06szz\x00\x00\x00+\x00\x07\x06JJ\x03\x04\x03\x03\x00-\x00\x02\x01\x01Di\x00\x05\x00\x03\x02h2\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x0b\x00\x02\x01\x00\x003\x04ï\x04íZZ\x00\x01\x00c\x99\x04Àý\x81I\x1e24\x9b[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:51] code 400, message Bad request version ('¯\x8c\x9d\x8cR&ñÃ³Hö)ï¹È\x88\x02')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:51] "[35m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x13õ$\x17qªÊ¥$å\x17\x88%,À$7\x8f\x10ÖÖí\x09Ú\x9b(\x15Ä«\x9bX¦ \x87\x1a\x99ÀÛ.#êþ\x7f¨¯ù\x1c.\x8f\x10<bA\x0d(Ï°ë²CÉ¿§69\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063jj\x00\x00\x00-\x00\x02\x01\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x003\x04ï\x04íºº\x00\x01\x00c\x99\x04Àzñ\x1dnv#9\x9b\x04\\\x92\x1d»Ï3~ØÓ\x0e\x85J?bÕs|EGo\x04ü)6S\x18Í\x91DË\x1c7ØÆ¦3ÀÏH\x97\x86\x04¥\x07¸iNhÉJ^G'¸DP\x16³TãÊ¢\x13l`#EGE\x91p\x04üÈÅù\x12I*\x16\x91\x05\x15ÕÚ9JÇF\x0b¨\x7f6À£ #D¥\x96\x8cÌ\x83*Çä\x0f>©\x9bJ\x01J6\x1b{Å4\x13ãG~oÒ\x94ÂÊ\x87ç6\x19\x03á¦áPuë\x08B\x9dÒ\x95+\x1azRrO\x1cZHáÊÌ\x15¨\x88A\x0c\x04\x89;r§Ò¡]\x90À(3C¹)YÈ¸Yo\x0bx\x8c\x82\x92?¹ÅÝ \x8a\x8a6\x03Í\x86\x82ù\x90IO³#\x0eØ\x80\x9c²}¥ò,N'\x8a\x84§\x9e\x035}e;\x8b/\x88%zØnï\x01µL)ÎN£\x1dÆãj\x97ºXOf\x10EG\x03\x02Ì\x97\x00¹\x8d${lY¸\x06\x02¹\x92ÉjE%c\x18Ra­Ýc¯èÒvâJV\x9f3qyÈ¶·$>é)ÀÞ\x05Ð«lÈ*|µüWiÚq\x87E\x88\x80$`\x02±éeh)ulú#&\x83\x1f¯\x8c\x9d\x8cR&ñÃ³Hö)ï¹È\x88\x02[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:53] code 400, message Bad request version ('¬#½\x13?')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:53] "[35m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x17\x10\x9aQ\x9bt°©¤\x97]\x13\x8a?0#Kxk+S\x88&N\x8eÒÌ·fU2M \x90¼;Ð¸7mÌà\x82\x07¢ú¸`r\x1f\x92\x1fF¤\x86\x88Õ\x0b¬#½\x13?\x1e[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:53] code 400, message Bad request version ('ÊFBK,_ù,C«\x93£n\x10Ïa\x19¡£\x92©\\')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:52:53] "[35m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03¦¢ f\x89®åIæD\x8b¬\x8f\x05\x1f\x8bú«\x06\x1bÊ°±+Î+!\x9e{\x1fi= k\x1aì\x94MR|xk5\x9cîÒ¡­R\x06Nó\x99$\x13\x85$¹\x1dÅ\x10È\x15u>\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s**\x00\x00\x00\x17\x00\x00Di\x00\x05\x00\x03\x02h2\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01ÿ\x01\x00\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00#\x00\x00\x00+\x00\x07\x06ªª\x03\x04\x03\x03\x00\x0b\x00\x02\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00-\x00\x02\x01\x01\x003\x04ï\x04íZZ\x00\x01\x00c\x99\x04À>ót\x1fýØ\x8f6%\x9ac\x86øê¨=;Ã©\x8a\x9fô*MòO^ÿl^\x0c4!w\x1e)!L×ÕcÅ1\x06öñ\x8bö\x89kåÊ\x85ªá¹w¹|\x12V\x87]3\\\x0dT\x93Øj\x9ar¤\x90\x14ª\x89\x00¼L\x15E\x9b½ÀpCó¨\x83\x8b\x84^:\x1dC<½âK\x1fø\x90m\x13\x98l\x04ö67J.óÃ\x86{\x07T\x859\x17h0iÀçc°Ð++Ð\x7f¸è\x17gÑ\x9aÇ\x95XÓ¥9\x12ü:F\x03*\x90Wk\x90¥\x8c\x03!\x1eMµt\x01È\x94!|¹«ì\x99\x02\x85©Ä\x87³ñSS¤g½\x0dæ-\x03p`\x81Ù\x8f\x14%ÌX,\x0c×ie\x88t©æ\x12Ç\x0dp!v¹Ç\x16sÌ{ö±\x01\x19\x8d\x930%|\x92¶\x85\x06°\x08`cg\x94-ò\x07\x17A\x93MóVSa\x0c6d\x8b¼:ò:¸ÉB\x96xRMg\x13Á!Vÿ5\x03hÛ!×0\x1b\x1d%\x0f§·´_\x1a3ÏÊ°"\x9cWEªJ\x0eëGì0b32\x0d\x82a²\x1c\x80»\x84úÂ]Y­\x12\x05Xè9\x12ëW®+¹\x962Ìl¡²V>Ò}7\x99\x18lf\x8a¿\x98a7*{þ¬tÁë<Rq«´É>\x00Ê\x10>\x8aL-äi0\x95¼\x02AtØç\x04Rd²m\x13i®VÉ·x\x8dÞ\x9c~©w²­Bz(\x8c¯%ê@\x1fTWî\x9bÇ+P\x09ÊFBK,_ù,C«\x93£n\x10Ïa\x19¡£\x92©\\[0m" HTTPStatus.BAD_REQUEST -
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.192.119:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+ERROR:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:34] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x99j')
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:34] "[35m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x99j\x0dßå\x9eRò®\x18\x9dÚ9Â[0m" HTTPStatus.BAD_REQUEST -
+INFO:config:Berhasil terhubung ke kamera laptop
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/fonts/iconic/css/material-design-iconic-font.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/vendor/animate/animate.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/vendor/animsition/css/animsition.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/vendor/select2/select2.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/vendor/daterangepicker/daterangepicker.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/css/util.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/vendor/animsition/js/animsition.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/vendor/bootstrap/js/popper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/vendor/select2/select2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/vendor/daterangepicker/moment.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/vendor/daterangepicker/daterangepicker.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/vendor/countdowntime/countdowntime.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/js/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/fonts/poppins/Poppins-Regular.ttf HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/fonts/poppins/Poppins-Bold.ttf HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:54:36] "[36mGET /static/assets/_login/fonts/poppins/Poppins-Medium.ttf HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\logging\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+INFO:config:Berhasil terhubung ke kamera laptop
+DEBUG:root:Login attempt: username=001, level=1
+DEBUG:root:User fetched: (5, '001', 'Fatmawati S.Pd', 'fatmawati@gmail.com', 'e193a01ecf8d30ad0affefd332ce934e32ffce72', 'guru.png', 'Y')
+DEBUG:root:Password check passed
+DEBUG:root:Redirecting to guru dashboard
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/css/atlantis.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/css/demo.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/img/user/guru.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/css/fonts.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/js/core/popper.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/js/atlantis.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/js/setting-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/fonts/flaticon/Flaticon.woff HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/assets/fonts/fontawesome/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "GET /load_content?content=default_content HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[33mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:48] "[36mGET /static/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:51] "GET /load_content?content=jadwal HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:55:54] "GET /load_content?content=absen HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:56:05] "[36mGET /static/assets/css/fonts.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:56:05] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:56:05] "[36mGET /static/assets/css/atlantis.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:56:05] "[36mGET /static/assets/css/demo.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:56:05] "[33mGET /static/assets/js/core/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:56:05] "[36mGET /static/assets/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 09:56:05] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\face_recognition_utils.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\face_recognition_utils.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\face_recognition_utils.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\face_recognition_utils.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.192.119:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
+INFO:config:Berhasil terhubung ke kamera laptop
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:41] "GET /index.php HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:41] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:41] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:41] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:45] "[33mGET /static/assets/js/core/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:45] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:45] "[33mGET /static/assets/js/core/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:45] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:45] "[33mGET /static/assets/js/core/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:45] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:45] "[36mGET /static/assets/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:45] "[36mGET /static/assets/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:45] "[36mGET /static/assets/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:47] "GET /load_content?content=jadwal HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/css/fonts.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/css/atlantis.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/css/demo.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/img/user/guru.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/js/core/popper.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/js/atlantis.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/js/setting-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/fonts/flaticon/Flaticon.woff HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/fonts/fontawesome/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[33mGET /static/assets/js/core/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/assets/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "GET /load_content?content=default_content HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[33mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[36mGET /static/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:49] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/assets/css/fonts.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/assets/css/atlantis.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/assets/css/demo.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/img/user/guru.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/assets/js/core/popper.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/assets/js/atlantis.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/assets/js/setting-demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[33mGET /static/assets/js/core/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/assets/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "GET /load_content?content=default_content HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[33mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[36mGET /static/img/logo1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:51] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:52] "GET /guru HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:52] "GET /static/assets/css/fonts.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:52] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:52] "GET /static/assets/css/atlantis.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:52] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:52] "GET /static/assets/js/plugin/webfont/webfont.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/img/user/guru.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/assets/js/core/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/assets/js/core/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/assets/js/core/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/assets/js/plugin/datatables/datatables.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/assets/js/plugin/sweetalert/sweetalert.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/assets/js/atlantis.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/assets/js/setting-demo.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/assets/fonts/flaticon/Flaticon.woff HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/assets/fonts/fontawesome/fa-brands-400.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "[33mGET /static/assets/js/core/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "[36mGET /static/assets/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /load_content?content=default_content HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "[33mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "GET /static/img/logo1.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:53] "[33mGET /static/assets/img/icon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:54] "GET /load_content?content=jadwal HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:01:57] "GET /load_content?content=absen HTTP/1.1" 200 -
+INFO:werkzeug:192.168.192.119 - - [27/Jul/2024 10:02:46] "GET /favicon.ico HTTP/1.1" 200 -
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.192.119:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
