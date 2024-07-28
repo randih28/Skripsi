@@ -1,0 +1,242 @@
+    <style>
+
+        /* Video stream */
+        #video-stream {
+            width: 10%;
+            height: auto;
+            display: block;
+        }
+
+        /* Deteksi label */
+        .labels {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border-radius: 5px;
+            max-width: 300px;
+        }
+
+        .labels h3 {
+            margin-top: 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        #face-labels {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #face-labels li {
+            font-size: 14px;
+            margin-bottom: 6px;
+            color: #555;
+        }
+
+        /* Visual loading */
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            display: none; /* Mulai tersembunyi */
+        }
+
+
+        /* Notifikasi */
+        .notification {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            z-index: 1000; /* Pastikan notifikasi di atas semua elemen lain */
+            display: none; /* Mulai tersembunyi */
+        }
+
+
+    </style>
+<div class="page-inner">
+    <div class="page-header">
+        <h4 class="page-title">Absensi</h4> 
+        <ul class="breadcrumbs">
+            <li class="nav-home">
+                <a href="#">
+                    <i class="flaticon-home"></i>
+                </a>
+            </li>
+            <li class="separator">
+                <i class="flaticon-right-arrow"></i>
+            </li>
+            <li class="nav-item">
+                <a href="#">Absensi Pembelajaran</a>
+            </li>
+            <li class="separator">
+                <i class="flaticon-right-arrow"></i>
+            </li>
+        </ul>
+    </div>
+
+        <!-- Video stream -->
+        <img id="video-stream" src="{{ url_for('video_feed') }}" alt="Video Stream" style="width: 50%; max-width: 50%;">
+
+        <div class="labels">
+            <h3>Detected Faces:</h3>
+            <ul id="face-labels"></ul>
+        </div>
+
+        <!-- Element untuk visual loading -->
+        <div id="loading" class="loading">
+            <p>Saving...</p>
+        </div>
+
+        <!-- Notifikasi -->
+        <div id="notification" class="notification">
+            <!-- Pesan notifikasi ditambahkan secara dinamis -->
+        </div>
+
+
+    <a href="javascript:history.back()" class="btn btn-default"><i class="fas fa-arrow-circle-left"></i> Kembali</a>
+</div>
+
+    <script>
+        const detectedLabels = new Set();
+        const savedNisToday = new Set();
+        const displayedLabels = new Set();
+        const saveInterval = 3000; // Fetch labels every 500 milliseconds
+        const displayInterval = 1000; // Display labels every 1 second
+        const captureDelay = 0; // Delay for capturing face image in milliseconds
+        let labelBuffer = []; // Buffer to store labels temporarily
+        let debounceTimer; // Timer for debouncing fetch requests
+
+
+        async function fetchLabels() {
+            try {
+                const response = await fetch('/labels');
+                if (!response.ok) {
+                    throw new Error('Failed to fetch labels');
+                }
+                const data = await response.json();
+                // Add data to buffer
+                labelBuffer.push(...data.labels);
+            } catch (error) {
+                console.error('Error fetching labels:', error);
+            }
+        }
+
+        function displayLabels() {
+            const labelsList = document.getElementById('face-labels');
+            labelsList.innerHTML = '';
+
+            // Display data from buffer
+            labelBuffer.forEach(info => {
+                if (!displayedLabels.has(info.nis)) {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `${info.nis} - ${info.nm_siswa} - ${info.no_kls} - ${info.status}`;
+                    labelsList.appendChild(listItem);
+
+                    displayedLabels.add(info.nis);
+                }
+
+                const currentTime = Date.now();
+                if (!detectedLabels.has(info.nis)) {
+                    detectedLabels.add(info.nis);
+                    if (info.threshold_met && !info.matching_in_progress) {
+                        setTimeout(() => {
+                            captureImage(info.nis);
+                        }, captureDelay);
+                    }
+                }
+            });
+
+            // Clear the buffer after displaying
+            labelBuffer = [];
+        }
+
+        function captureImage(label) {
+            const video = document.getElementById('video-stream');
+            const canvas = document.createElement('canvas');
+            canvas.width = video.width;
+            canvas.height = video.height;
+            const context = canvas.getContext('2d');
+            context.drawImage(video, 0, 0, canvas.width, canvas.height);
+            
+            const imageData = canvas.toDataURL('image/jpeg');
+
+            saveLabelToDatabase(label, imageData);
+        }
+
+        function debounceFetchLabels() {
+        if (debounceTimer) {
+            clearTimeout(debounceTimer);
+        }
+        debounceTimer = setTimeout(() => {
+            fetchLabels();
+            debounceFetchLabels();
+        }, saveInterval);
+    }
+        function saveLabelToDatabase(label, image) {
+            if (savedNisToday.has(label)) {
+                showNotification('Data sudah ada');
+                return;
+            }
+
+            fetch('/save_label', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ label_info: [{ label: label, distance: 0, threshold_met: true }], image_data: image, matching_in_progress: false }),
+            })
+            .then(response => {
+                if (!response.ok) {
+                    return response.json().then(errorData => {
+                        throw new Error(errorData.error || 'Failed to save label to database');
+                    });
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log('Label saved successfully:', data);
+                showNotification('Presensi berhasil');
+                savedNisToday.add(label);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                if (error.message === 'NIS atau kelas tidak sesuai') {
+                    showNotification('Tidak Valid');
+                } else {
+                    showNotification('Error saving label to database');
+                }
+            });
+        }
+
+        function resetDisplayedLabels() {
+            const labelsList = document.getElementById('face-labels');
+            labelsList.innerHTML = ''; // Clear the displayed labels list
+            displayedLabels.clear(); // Clear the set of displayed labels
+        }
+
+        function showNotification(message) {
+            const notification = document.getElementById('notification');
+            notification.textContent = message;
+            notification.style.display = 'block';
+
+            setTimeout(() => {
+                notification.style.display = 'none';
+            }, 1000); // 1000 milliseconds = 1 second
+        }
+
+        setInterval(displayLabels, displayInterval);
+        debounceFetchLabels();
+    </script>
+    

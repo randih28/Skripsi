@@ -8,6 +8,9 @@ import threading
 from face_recognition_utils import recognize_faces, get_db_connection
 from config import app, mysql  # Impor app dan mysql dari config.py
 
+logging.basicConfig(level=logging.DEBUG)
+
+
 # URL ESP32 CAM
 ESP32_CAM_URL = "http://localhost"  # Ganti dengan alamat IP ESP32 cam Anda
 
