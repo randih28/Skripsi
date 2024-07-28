@@ -1878,3 +1878,9 @@ INFO:werkzeug: * Debugger PIN: 832-886-077
 INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\app.py', reloading
 INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\app.py', reloading
 INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:matplotlib:matplotlib data path: c:\Users\randi\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
