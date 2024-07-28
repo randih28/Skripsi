@@ -8,6 +8,9 @@ import threading
 from face_recognition_utils import recognize_faces, get_db_connection
 from config import app, mysql  # Impor app dan mysql dari config.py
 
+# URL ESP32 CAM
+ESP32_CAM_URL = "http://localhost"  # Ganti dengan alamat IP ESP32 cam Anda
+
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -224,12 +227,12 @@ def before_request():
     global video_capture
     with capture_lock:
         if video_capture is None or not video_capture.isOpened():
-            video_capture = cv2.VideoCapture('http://localhost:8080/stream')
+            video_capture = cv2.VideoCapture(ESP32_CAM_URL + ":8080/stream")
             if video_capture.isOpened():
-                app.logger.info("Berhasil terhubung ke kamera ESP32-CAM")
+                app.logger.info("Berhasil terhubung ke ESP32 CAM")
+                # Set buffer size and timeout
                 video_capture.set(cv2.CAP_PROP_BUFFERSIZE, 1)
-                # Set CV_CAP_PROP_BUFFERSIZE to ensure the frames are fresh (if supported by the backend)
-                # Not all properties might be supported by the backend, so you can skip this if not required
+                video_capture.set(cv2.CAP_PROP_POS_MSEC, 2000)
                 
 
 def gen_frames():
