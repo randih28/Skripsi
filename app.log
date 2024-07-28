@@ -1872,3 +1872,6 @@ DEBUG:matplotlib:interactive is False
 DEBUG:matplotlib:platform is win32
 DEBUG:matplotlib:CACHEDIR=C:\Users\randi\.matplotlib
 DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.matplotlib\fontlist-v390.json
+DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-886-077
