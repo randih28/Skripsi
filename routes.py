@@ -224,7 +224,7 @@ def before_request():
     global video_capture
     with capture_lock:
         if video_capture is None or not video_capture.isOpened():
-            video_capture = cv2.VideoCapture('http://localhost:81/stream')
+            video_capture = cv2.VideoCapture('http://localhost:8080/stream')
             if video_capture.isOpened():
                 app.logger.info("Berhasil terhubung ke kamera ESP32-CAM")
                 video_capture.set(cv2.CAP_PROP_BUFFERSIZE, 1)
