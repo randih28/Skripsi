@@ -224,11 +224,12 @@ def before_request():
     global video_capture
     with capture_lock:
         if video_capture is None or not video_capture.isOpened():
-            video_capture = cv2.VideoCapture(0)
+            video_capture = cv2.VideoCapture('http://localhost:81/stream')
             if video_capture.isOpened():
-                app.logger.info("Berhasil terhubung ke kamera laptop")
+                app.logger.info("Berhasil terhubung ke kamera ESP32-CAM")
                 video_capture.set(cv2.CAP_PROP_BUFFERSIZE, 1)
-                video_capture.set(cv2.CAP_PROP_POS_MSEC, 2000)
+                # Set CV_CAP_PROP_BUFFERSIZE to ensure the frames are fresh (if supported by the backend)
+                # Not all properties might be supported by the backend, so you can skip this if not required
                 
 
 def gen_frames():
