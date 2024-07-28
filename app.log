@@ -2442,3 +2442,7 @@ DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\randi\.ma
 DEBUG:matplotlib.pyplot:Loaded backend Agg version v2.2.
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 832-886-077
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\randi\\Downloads\\Compressed\\absensiswa\\template\\routes.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
