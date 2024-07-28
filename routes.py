@@ -7,6 +7,9 @@ import cv2
 import threading
 from face_recognition_utils import recognize_faces, get_db_connection
 from config import app, mysql  # Impor app dan mysql dari config.py
+import base64
+import numpy as np
+
 
 @app.route('/')
 def index():
@@ -172,7 +175,8 @@ def load_content():
             return redirect(url_for('index'))
     else:
         return redirect(url_for('index'))
-    
+
+
     # Jika tidak ada sesi guru atau content tidak ditemukan
     return render_template('guru/modul/home.html', data=data_guru, mengajar=data_mengajar, current_year=current_year)
 
@@ -258,6 +262,22 @@ def gen_frames():
 @app.route('/video_feed')
 def video_feed():
     return Response(gen_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
+
+@app.route('/process_video', methods=['POST'])
+def process_video():
+    data = request.json['image']
+    img_data = base64.b64decode(data)
+    np_arr = np.frombuffer(img_data, np.uint8)
+    frame = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
+    
+    # Process the frame (e.g., face recognition)
+    frame, labels = recognize_faces(frame)
+    
+    # Encode the frame back to base64
+    _, buffer = cv2.imencode('.jpg', frame)
+    encoded_frame = base64.b64encode(buffer).decode('utf-8')
+    
+    return jsonify({'image': encoded_frame, 'labels': labels})
 
 @app.route('/labels')
 def get_labels():

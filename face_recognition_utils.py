@@ -12,7 +12,6 @@ from torchvision import transforms
 from PIL import Image
 
 
-
 # URL ESP32 CAM
 # Konfigurasi logging
 # handler = RotatingFileHandler('app.log', maxBytes=10000, backupCount=1)
